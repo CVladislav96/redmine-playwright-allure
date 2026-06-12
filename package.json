@@ -1,0 +1,30 @@
+{
+  "name": "redmine-playwright-allure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test tests/smoke",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CVladislav96/redmine-playwright-allure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CVladislav96/redmine-playwright-allure/issues"
+  },
+  "homepage": "https://github.com/CVladislav96/redmine-playwright-allure#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "allure-playwright": "^3.9.0"
+  }
+}
