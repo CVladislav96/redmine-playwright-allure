@@ -1,6 +1,6 @@
 # Redmine Playwright Allure
 
-[![Playwright Tests](https://github.com/CVladislav96/redmine-playwright-tests/actions/workflows/playwright.yml/badge.svg)](https://github.com/CVladislav96/redmine-playwright-allure/actions)
+[![Playwright Tests](https://github.com/CVladislav96/redmine-playwright-allure/actions/workflows/playwright.yml/badge.svg)](https://github.com/CVladislav96/redmine-playwright-allure/actions)
 
 Automated test project for `https://www.redmine.org` using Playwright and Allure.
 
